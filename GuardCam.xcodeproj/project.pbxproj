@@ -18,6 +18,25 @@
 		98C748B417B08C0500F8D133 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C748B317B08C0500F8D133 /* Default@2x.png */; };
 		98C748B617B08C0500F8D133 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C748B517B08C0500F8D133 /* Default-568h@2x.png */; };
 		98C748B917B08C0500F8D133 /* GuardCam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98C748B717B08C0500F8D133 /* GuardCam.xcdatamodeld */; };
+		98C748C417B08D9100F8D133 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C748C317B08D9100F8D133 /* GuideViewController.m */; };
+		98D1B1C317B0903600B492BD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1B317B0903600B492BD /* 1.png */; };
+		98D1B1C417B0903600B492BD /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1B417B0903600B492BD /* 1@2x.png */; };
+		98D1B1C517B0903600B492BD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1B517B0903600B492BD /* 2.png */; };
+		98D1B1C617B0903600B492BD /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1B617B0903600B492BD /* 2@2x.png */; };
+		98D1B1C717B0903600B492BD /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1B717B0903600B492BD /* 3.png */; };
+		98D1B1C817B0903600B492BD /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1B817B0903600B492BD /* 3@2x.png */; };
+		98D1B1C917B0903600B492BD /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1B917B0903600B492BD /* 4.png */; };
+		98D1B1CA17B0903600B492BD /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1BA17B0903600B492BD /* 4@2x.png */; };
+		98D1B1CB17B0903600B492BD /* btn_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1BB17B0903600B492BD /* btn_nor.png */; };
+		98D1B1CC17B0903600B492BD /* btn_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1BC17B0903600B492BD /* btn_nor@2x.png */; };
+		98D1B1CD17B0903600B492BD /* btn_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1BD17B0903600B492BD /* btn_press.png */; };
+		98D1B1CE17B0903600B492BD /* btn_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1BE17B0903600B492BD /* btn_press@2x.png */; };
+		98D1B1CF17B0903600B492BD /* checkBox_blankCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1BF17B0903600B492BD /* checkBox_blankCheck.png */; };
+		98D1B1D017B0903600B492BD /* checkBox_blankCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1C017B0903600B492BD /* checkBox_blankCheck@2x.png */; };
+		98D1B1D117B0903600B492BD /* checkBox_selectCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1C117B0903600B492BD /* checkBox_selectCheck.png */; };
+		98D1B1D217B0903600B492BD /* checkBox_selectCheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1C217B0903600B492BD /* checkBox_selectCheck@2x.png */; };
+		98D1B1D617B0908400B492BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D1B1D417B0908400B492BD /* LoginViewController.m */; };
+		98D1B1D717B0908400B492BD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D1B1D517B0908400B492BD /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +55,27 @@
 		98C748B317B08C0500F8D133 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		98C748B517B08C0500F8D133 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		98C748B817B08C0500F8D133 /* GuardCam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuardCam.xcdatamodel; sourceTree = "<group>"; };
+		98C748C217B08D9100F8D133 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuideViewController.h; path = Classes/MainView/GuideViewController.h; sourceTree = "<group>"; };
+		98C748C317B08D9100F8D133 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuideViewController.m; path = Classes/MainView/GuideViewController.m; sourceTree = "<group>"; };
+		98D1B1B317B0903600B492BD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Images/Launch/1.png; sourceTree = "<group>"; };
+		98D1B1B417B0903600B492BD /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1@2x.png"; path = "Images/Launch/1@2x.png"; sourceTree = "<group>"; };
+		98D1B1B517B0903600B492BD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = Images/Launch/2.png; sourceTree = "<group>"; };
+		98D1B1B617B0903600B492BD /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2@2x.png"; path = "Images/Launch/2@2x.png"; sourceTree = "<group>"; };
+		98D1B1B717B0903600B492BD /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = Images/Launch/3.png; sourceTree = "<group>"; };
+		98D1B1B817B0903600B492BD /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3@2x.png"; path = "Images/Launch/3@2x.png"; sourceTree = "<group>"; };
+		98D1B1B917B0903600B492BD /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = Images/Launch/4.png; sourceTree = "<group>"; };
+		98D1B1BA17B0903600B492BD /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4@2x.png"; path = "Images/Launch/4@2x.png"; sourceTree = "<group>"; };
+		98D1B1BB17B0903600B492BD /* btn_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_nor.png; path = Images/Launch/btn_nor.png; sourceTree = "<group>"; };
+		98D1B1BC17B0903600B492BD /* btn_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_nor@2x.png"; path = "Images/Launch/btn_nor@2x.png"; sourceTree = "<group>"; };
+		98D1B1BD17B0903600B492BD /* btn_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_press.png; path = Images/Launch/btn_press.png; sourceTree = "<group>"; };
+		98D1B1BE17B0903600B492BD /* btn_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_press@2x.png"; path = "Images/Launch/btn_press@2x.png"; sourceTree = "<group>"; };
+		98D1B1BF17B0903600B492BD /* checkBox_blankCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_blankCheck.png; path = Images/Launch/checkBox_blankCheck.png; sourceTree = "<group>"; };
+		98D1B1C017B0903600B492BD /* checkBox_blankCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkBox_blankCheck@2x.png"; path = "Images/Launch/checkBox_blankCheck@2x.png"; sourceTree = "<group>"; };
+		98D1B1C117B0903600B492BD /* checkBox_selectCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox_selectCheck.png; path = Images/Launch/checkBox_selectCheck.png; sourceTree = "<group>"; };
+		98D1B1C217B0903600B492BD /* checkBox_selectCheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkBox_selectCheck@2x.png"; path = "Images/Launch/checkBox_selectCheck@2x.png"; sourceTree = "<group>"; };
+		98D1B1D317B0908400B492BD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Classes/MainView/LoginViewController.h; sourceTree = "<group>"; };
+		98D1B1D417B0908400B492BD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Classes/MainView/LoginViewController.m; sourceTree = "<group>"; };
+		98D1B1D517B0908400B492BD /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/MainView/LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +124,8 @@
 		98C748A517B08C0500F8D133 /* GuardCam */ = {
 			isa = PBXGroup;
 			children = (
+				98D1B1B117B08FDA00B492BD /* Images */,
+				98C748C017B08D3500F8D133 /* Classes */,
 				98C748AE17B08C0500F8D133 /* AppDelegate.h */,
 				98C748AF17B08C0500F8D133 /* AppDelegate.m */,
 				98C748B717B08C0500F8D133 /* GuardCam.xcdatamodeld */,
@@ -104,6 +146,65 @@
 				98C748B517B08C0500F8D133 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98C748BF17B08D2B00F8D133 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				98C748C217B08D9100F8D133 /* GuideViewController.h */,
+				98C748C317B08D9100F8D133 /* GuideViewController.m */,
+				98D1B1D317B0908400B492BD /* LoginViewController.h */,
+				98D1B1D417B0908400B492BD /* LoginViewController.m */,
+				98D1B1D517B0908400B492BD /* LoginViewController.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		98C748C017B08D3500F8D133 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98C748C117B08D5C00F8D133 /* TabBar */,
+				98C748BF17B08D2B00F8D133 /* MainView */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		98C748C117B08D5C00F8D133 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		98D1B1B117B08FDA00B492BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				98D1B1B217B08FE200B492BD /* Launnch */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		98D1B1B217B08FE200B492BD /* Launnch */ = {
+			isa = PBXGroup;
+			children = (
+				98D1B1B317B0903600B492BD /* 1.png */,
+				98D1B1B417B0903600B492BD /* 1@2x.png */,
+				98D1B1B517B0903600B492BD /* 2.png */,
+				98D1B1B617B0903600B492BD /* 2@2x.png */,
+				98D1B1B717B0903600B492BD /* 3.png */,
+				98D1B1B817B0903600B492BD /* 3@2x.png */,
+				98D1B1B917B0903600B492BD /* 4.png */,
+				98D1B1BA17B0903600B492BD /* 4@2x.png */,
+				98D1B1BB17B0903600B492BD /* btn_nor.png */,
+				98D1B1BC17B0903600B492BD /* btn_nor@2x.png */,
+				98D1B1BD17B0903600B492BD /* btn_press.png */,
+				98D1B1BE17B0903600B492BD /* btn_press@2x.png */,
+				98D1B1BF17B0903600B492BD /* checkBox_blankCheck.png */,
+				98D1B1C017B0903600B492BD /* checkBox_blankCheck@2x.png */,
+				98D1B1C117B0903600B492BD /* checkBox_selectCheck.png */,
+				98D1B1C217B0903600B492BD /* checkBox_selectCheck@2x.png */,
+			);
+			name = Launnch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +262,23 @@
 				98C748B217B08C0500F8D133 /* Default.png in Resources */,
 				98C748B417B08C0500F8D133 /* Default@2x.png in Resources */,
 				98C748B617B08C0500F8D133 /* Default-568h@2x.png in Resources */,
+				98D1B1C317B0903600B492BD /* 1.png in Resources */,
+				98D1B1C417B0903600B492BD /* 1@2x.png in Resources */,
+				98D1B1C517B0903600B492BD /* 2.png in Resources */,
+				98D1B1C617B0903600B492BD /* 2@2x.png in Resources */,
+				98D1B1C717B0903600B492BD /* 3.png in Resources */,
+				98D1B1C817B0903600B492BD /* 3@2x.png in Resources */,
+				98D1B1C917B0903600B492BD /* 4.png in Resources */,
+				98D1B1CA17B0903600B492BD /* 4@2x.png in Resources */,
+				98D1B1CB17B0903600B492BD /* btn_nor.png in Resources */,
+				98D1B1CC17B0903600B492BD /* btn_nor@2x.png in Resources */,
+				98D1B1CD17B0903600B492BD /* btn_press.png in Resources */,
+				98D1B1CE17B0903600B492BD /* btn_press@2x.png in Resources */,
+				98D1B1CF17B0903600B492BD /* checkBox_blankCheck.png in Resources */,
+				98D1B1D017B0903600B492BD /* checkBox_blankCheck@2x.png in Resources */,
+				98D1B1D117B0903600B492BD /* checkBox_selectCheck.png in Resources */,
+				98D1B1D217B0903600B492BD /* checkBox_selectCheck@2x.png in Resources */,
+				98D1B1D717B0908400B492BD /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +292,8 @@
 				98C748AC17B08C0500F8D133 /* main.m in Sources */,
 				98C748B017B08C0500F8D133 /* AppDelegate.m in Sources */,
 				98C748B917B08C0500F8D133 /* GuardCam.xcdatamodeld in Sources */,
+				98C748C417B08D9100F8D133 /* GuideViewController.m in Sources */,
+				98D1B1D617B0908400B492BD /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +408,7 @@
 				98C748BE17B08C0500F8D133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

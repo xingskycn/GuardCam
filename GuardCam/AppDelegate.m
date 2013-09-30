@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "GuideViewController.h"
+#import "LoginViewController.h"
 
 @implementation AppDelegate
 
@@ -18,8 +20,20 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //增加标识，用于判断是否是第一次启动应用...
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"everLaunched"]) {
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"everLaunched"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
+    }
+    
+    self.loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+    self.window.rootViewController = self.loginViewController;
     [self.window makeKeyAndVisible];
+
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]) {
+        [GuideViewController show];
+    }
     return YES;
 }
 
