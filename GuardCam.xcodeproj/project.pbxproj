@@ -9,6 +9,26 @@
 /* Begin PBXBuildFile section */
 		98601B0817FA8B35001FF139 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B0617FA8B35001FF139 /* bg.png */; };
 		98601B0917FA8B35001FF139 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B0717FA8B35001FF139 /* bg@2x.png */; };
+		98601B6117FAB03F001FF139 /* ScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 98601B5F17FAB03F001FF139 /* ScreenShot.m */; };
+		98601B6217FAB03F001FF139 /* ScreenShot.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98601B6017FAB03F001FF139 /* ScreenShot.xib */; };
+		98601B6617FAB0D8001FF139 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 98601B6417FAB0D8001FF139 /* Setting.m */; };
+		98601B6717FAB0D8001FF139 /* Setting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98601B6517FAB0D8001FF139 /* Setting.xib */; };
+		98601B7717FAB268001FF139 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B6917FAB268001FF139 /* camera.png */; };
+		98601B7817FAB268001FF139 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B6A17FAB268001FF139 /* camera@2x.png */; };
+		98601B7917FAB268001FF139 /* cameraSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B6B17FAB268001FF139 /* cameraSelect.png */; };
+		98601B7A17FAB268001FF139 /* cameraSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B6C17FAB268001FF139 /* cameraSelect@2x.png */; };
+		98601B7B17FAB268001FF139 /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B6D17FAB268001FF139 /* set.png */; };
+		98601B7C17FAB268001FF139 /* set@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B6E17FAB268001FF139 /* set@2x.png */; };
+		98601B7D17FAB268001FF139 /* setSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B6F17FAB268001FF139 /* setSelect.png */; };
+		98601B7E17FAB268001FF139 /* setSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B7017FAB268001FF139 /* setSelect@2x.png */; };
+		98601B7F17FAB268001FF139 /* tabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B7117FAB268001FF139 /* tabBar.png */; };
+		98601B8017FAB268001FF139 /* tabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B7217FAB268001FF139 /* tabBar@2x.png */; };
+		98601B8117FAB268001FF139 /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B7317FAB268001FF139 /* video.png */; };
+		98601B8217FAB268001FF139 /* video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B7417FAB268001FF139 /* video@2x.png */; };
+		98601B8317FAB268001FF139 /* videoSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B7517FAB268001FF139 /* videoSelect.png */; };
+		98601B8417FAB268001FF139 /* videoSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B7617FAB268001FF139 /* videoSelect@2x.png */; };
+		98601B8817FAB516001FF139 /* RealTimePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 98601B8617FAB515001FF139 /* RealTimePlay.m */; };
+		98601B8917FAB516001FF139 /* RealTimePlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98601B8717FAB516001FF139 /* RealTimePlay.xib */; };
 		98C7489E17B08C0500F8D133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C7489D17B08C0500F8D133 /* UIKit.framework */; };
 		98C748A017B08C0500F8D133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C7489F17B08C0500F8D133 /* Foundation.framework */; };
 		98C748A217B08C0500F8D133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C748A117B08C0500F8D133 /* CoreGraphics.framework */; };
@@ -44,6 +64,29 @@
 /* Begin PBXFileReference section */
 		98601B0617FA8B35001FF139 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Images/bg.png; sourceTree = "<group>"; };
 		98601B0717FA8B35001FF139 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg@2x.png"; path = "Images/bg@2x.png"; sourceTree = "<group>"; };
+		98601B5E17FAB03F001FF139 /* ScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenShot.h; path = Classes/TabBar/ScreenShot.h; sourceTree = "<group>"; };
+		98601B5F17FAB03F001FF139 /* ScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenShot.m; path = Classes/TabBar/ScreenShot.m; sourceTree = "<group>"; };
+		98601B6017FAB03F001FF139 /* ScreenShot.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScreenShot.xib; path = Classes/TabBar/ScreenShot.xib; sourceTree = "<group>"; };
+		98601B6317FAB0D8001FF139 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Setting.h; path = Classes/TabBar/Setting.h; sourceTree = "<group>"; };
+		98601B6417FAB0D8001FF139 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Setting.m; path = Classes/TabBar/Setting.m; sourceTree = "<group>"; };
+		98601B6517FAB0D8001FF139 /* Setting.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Setting.xib; path = Classes/TabBar/Setting.xib; sourceTree = "<group>"; };
+		98601B6917FAB268001FF139 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		98601B6A17FAB268001FF139 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		98601B6B17FAB268001FF139 /* cameraSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraSelect.png; sourceTree = "<group>"; };
+		98601B6C17FAB268001FF139 /* cameraSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraSelect@2x.png"; sourceTree = "<group>"; };
+		98601B6D17FAB268001FF139 /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		98601B6E17FAB268001FF139 /* set@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set@2x.png"; sourceTree = "<group>"; };
+		98601B6F17FAB268001FF139 /* setSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setSelect.png; sourceTree = "<group>"; };
+		98601B7017FAB268001FF139 /* setSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setSelect@2x.png"; sourceTree = "<group>"; };
+		98601B7117FAB268001FF139 /* tabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar.png; sourceTree = "<group>"; };
+		98601B7217FAB268001FF139 /* tabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar@2x.png"; sourceTree = "<group>"; };
+		98601B7317FAB268001FF139 /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video.png; sourceTree = "<group>"; };
+		98601B7417FAB268001FF139 /* video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video@2x.png"; sourceTree = "<group>"; };
+		98601B7517FAB268001FF139 /* videoSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoSelect.png; sourceTree = "<group>"; };
+		98601B7617FAB268001FF139 /* videoSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoSelect@2x.png"; sourceTree = "<group>"; };
+		98601B8517FAB515001FF139 /* RealTimePlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RealTimePlay.h; path = Classes/TabBar/RealTimePlay.h; sourceTree = "<group>"; };
+		98601B8617FAB515001FF139 /* RealTimePlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RealTimePlay.m; path = Classes/TabBar/RealTimePlay.m; sourceTree = "<group>"; };
+		98601B8717FAB516001FF139 /* RealTimePlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RealTimePlay.xib; path = Classes/TabBar/RealTimePlay.xib; sourceTree = "<group>"; };
 		98C7489A17B08C0500F8D133 /* GuardCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuardCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C7489D17B08C0500F8D133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98C7489F17B08C0500F8D133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +140,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98601B6817FAB268001FF139 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				98601B6917FAB268001FF139 /* camera.png */,
+				98601B6A17FAB268001FF139 /* camera@2x.png */,
+				98601B6B17FAB268001FF139 /* cameraSelect.png */,
+				98601B6C17FAB268001FF139 /* cameraSelect@2x.png */,
+				98601B6D17FAB268001FF139 /* set.png */,
+				98601B6E17FAB268001FF139 /* set@2x.png */,
+				98601B6F17FAB268001FF139 /* setSelect.png */,
+				98601B7017FAB268001FF139 /* setSelect@2x.png */,
+				98601B7117FAB268001FF139 /* tabBar.png */,
+				98601B7217FAB268001FF139 /* tabBar@2x.png */,
+				98601B7317FAB268001FF139 /* video.png */,
+				98601B7417FAB268001FF139 /* video@2x.png */,
+				98601B7517FAB268001FF139 /* videoSelect.png */,
+				98601B7617FAB268001FF139 /* videoSelect@2x.png */,
+			);
+			name = TabBar;
+			path = Images/TabBar;
+			sourceTree = "<group>";
+		};
 		98C7489117B08C0500F8D133 = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +241,15 @@
 		98C748C117B08D5C00F8D133 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				98601B5E17FAB03F001FF139 /* ScreenShot.h */,
+				98601B5F17FAB03F001FF139 /* ScreenShot.m */,
+				98601B6017FAB03F001FF139 /* ScreenShot.xib */,
+				98601B6317FAB0D8001FF139 /* Setting.h */,
+				98601B6417FAB0D8001FF139 /* Setting.m */,
+				98601B6517FAB0D8001FF139 /* Setting.xib */,
+				98601B8517FAB515001FF139 /* RealTimePlay.h */,
+				98601B8617FAB515001FF139 /* RealTimePlay.m */,
+				98601B8717FAB516001FF139 /* RealTimePlay.xib */,
 			);
 			name = TabBar;
 			sourceTree = "<group>";
@@ -183,6 +257,7 @@
 		98D1B1B117B08FDA00B492BD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				98601B6817FAB268001FF139 /* TabBar */,
 				98601B0617FA8B35001FF139 /* bg.png */,
 				98601B0717FA8B35001FF139 /* bg@2x.png */,
 				98D1B1B217B08FE200B492BD /* Launnch */,
@@ -287,6 +362,23 @@
 				98D1B1D717B0908400B492BD /* LoginViewController.xib in Resources */,
 				98601B0817FA8B35001FF139 /* bg.png in Resources */,
 				98601B0917FA8B35001FF139 /* bg@2x.png in Resources */,
+				98601B6217FAB03F001FF139 /* ScreenShot.xib in Resources */,
+				98601B6717FAB0D8001FF139 /* Setting.xib in Resources */,
+				98601B7717FAB268001FF139 /* camera.png in Resources */,
+				98601B7817FAB268001FF139 /* camera@2x.png in Resources */,
+				98601B7917FAB268001FF139 /* cameraSelect.png in Resources */,
+				98601B7A17FAB268001FF139 /* cameraSelect@2x.png in Resources */,
+				98601B7B17FAB268001FF139 /* set.png in Resources */,
+				98601B7C17FAB268001FF139 /* set@2x.png in Resources */,
+				98601B7D17FAB268001FF139 /* setSelect.png in Resources */,
+				98601B7E17FAB268001FF139 /* setSelect@2x.png in Resources */,
+				98601B7F17FAB268001FF139 /* tabBar.png in Resources */,
+				98601B8017FAB268001FF139 /* tabBar@2x.png in Resources */,
+				98601B8117FAB268001FF139 /* video.png in Resources */,
+				98601B8217FAB268001FF139 /* video@2x.png in Resources */,
+				98601B8317FAB268001FF139 /* videoSelect.png in Resources */,
+				98601B8417FAB268001FF139 /* videoSelect@2x.png in Resources */,
+				98601B8917FAB516001FF139 /* RealTimePlay.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +394,9 @@
 				98C748B917B08C0500F8D133 /* GuardCam.xcdatamodeld in Sources */,
 				98C748C417B08D9100F8D133 /* GuideViewController.m in Sources */,
 				98D1B1D617B0908400B492BD /* LoginViewController.m in Sources */,
+				98601B6117FAB03F001FF139 /* ScreenShot.m in Sources */,
+				98601B6617FAB0D8001FF139 /* Setting.m in Sources */,
+				98601B8817FAB516001FF139 /* RealTimePlay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

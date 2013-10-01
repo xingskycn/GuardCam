@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "GuideViewController.h"
 #import "LoginViewController.h"
+#import "RealTimePlay.h"
+#import "ScreenShot.h"
+#import "Setting.h"
 
 @implementation AppDelegate
 
@@ -36,6 +39,39 @@
     }
     return YES;
 }
+
+-(void)pushTabBar{
+    self.firstViewController=[[RealTimePlay alloc]initWithNibName:nil bundle:NULL];
+    self.secondViewController=[[ScreenShot alloc]initWithNibName:nil bundle:NULL];
+    self.thirdViewController=[[Setting alloc]initWithNibName:nil bundle:NULL];
+    NSArray *threeViewControllers=[[NSArray alloc]initWithObjects:self.firstViewController, self.secondViewController,self.thirdViewController, nil];
+    
+    self.tabBarController=[[UITabBarController alloc]init];
+    [self.tabBarController setViewControllers:threeViewControllers];
+    //self.tabBarController.tabBar.tintColor=[UIColor whiteColor];
+    self.tabBarController.tabBar.backgroundImage=[UIImage imageNamed:@"tabBar.png"];
+    
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window addSubview:self.tabBarController.view];
+    [self.window makeKeyAndVisible];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

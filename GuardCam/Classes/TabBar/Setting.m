@@ -1,25 +1,27 @@
 //
-//  LoginViewController.m
+//  Setting.m
 //  GuardCam
 //
-//  Created by zhou angel on 13-8-6.
+//  Created by zhou angel on 13-10-1.
 //  Copyright (c) 2013年 zhou angel. All rights reserved.
 //
 
-#import "LoginViewController.h"
-#import "AppDelegate.h"
+#import "Setting.h"
 
-@interface LoginViewController ()
+@interface Setting ()
 
 @end
 
-@implementation LoginViewController
+@implementation Setting
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title=@"设置";
+        self.tabBarItem.image = [UIImage imageNamed:@"set.png"];
+         [self.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"setSelect.png"] withFinishedUnselectedImage:nil];
     }
     return self;
 }
@@ -36,8 +38,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)connectStart:(id)sender {
-    AppDelegate *app=[[UIApplication sharedApplication]delegate];
-    [app pushTabBar];
-}
 @end

@@ -8,12 +8,20 @@
 
 #import <UIKit/UIKit.h>
 @class LoginViewController;
+@class RealTimePlay;
+@class ScreenShot;
+@class Setting;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) LoginViewController *loginViewController;
 
+@property (strong, nonatomic) UITabBarController *tabBarController;
+@property (strong, nonatomic) RealTimePlay *firstViewController;
+@property (strong, nonatomic) ScreenShot *secondViewController;
+@property (strong, nonatomic) Setting *thirdViewController;
+-(void)pushTabBar;
 
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;

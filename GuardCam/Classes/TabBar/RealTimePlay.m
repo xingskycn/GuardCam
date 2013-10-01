@@ -1,25 +1,27 @@
 //
-//  LoginViewController.m
+//  RealTimePlay.m
 //  GuardCam
 //
-//  Created by zhou angel on 13-8-6.
+//  Created by zhou angel on 13-10-1.
 //  Copyright (c) 2013年 zhou angel. All rights reserved.
 //
 
-#import "LoginViewController.h"
-#import "AppDelegate.h"
+#import "RealTimePlay.h"
 
-@interface LoginViewController ()
+@interface RealTimePlay ()
 
 @end
 
-@implementation LoginViewController
+@implementation RealTimePlay
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title=@"实时视频";
+        self.tabBarItem.image = [UIImage imageNamed:@"video.png"];
+        [self.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"videoSelect.png"] withFinishedUnselectedImage:nil];
     }
     return self;
 }
@@ -29,6 +31,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
+-(void)viewDidAppear:(BOOL)animated{
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -36,8 +40,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)connectStart:(id)sender {
-    AppDelegate *app=[[UIApplication sharedApplication]delegate];
-    [app pushTabBar];
-}
 @end
