@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98601B0817FA8B35001FF139 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B0617FA8B35001FF139 /* bg.png */; };
+		98601B0917FA8B35001FF139 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98601B0717FA8B35001FF139 /* bg@2x.png */; };
 		98C7489E17B08C0500F8D133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C7489D17B08C0500F8D133 /* UIKit.framework */; };
 		98C748A017B08C0500F8D133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C7489F17B08C0500F8D133 /* Foundation.framework */; };
 		98C748A217B08C0500F8D133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C748A117B08C0500F8D133 /* CoreGraphics.framework */; };
@@ -40,6 +42,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98601B0617FA8B35001FF139 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Images/bg.png; sourceTree = "<group>"; };
+		98601B0717FA8B35001FF139 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg@2x.png"; path = "Images/bg@2x.png"; sourceTree = "<group>"; };
 		98C7489A17B08C0500F8D133 /* GuardCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuardCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C7489D17B08C0500F8D133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98C7489F17B08C0500F8D133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -179,6 +183,8 @@
 		98D1B1B117B08FDA00B492BD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				98601B0617FA8B35001FF139 /* bg.png */,
+				98601B0717FA8B35001FF139 /* bg@2x.png */,
 				98D1B1B217B08FE200B492BD /* Launnch */,
 			);
 			name = Images;
@@ -279,6 +285,8 @@
 				98D1B1D117B0903600B492BD /* checkBox_selectCheck.png in Resources */,
 				98D1B1D217B0903600B492BD /* checkBox_selectCheck@2x.png in Resources */,
 				98D1B1D717B0908400B492BD /* LoginViewController.xib in Resources */,
+				98601B0817FA8B35001FF139 /* bg.png in Resources */,
+				98601B0917FA8B35001FF139 /* bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
