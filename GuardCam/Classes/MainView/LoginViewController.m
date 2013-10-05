@@ -38,6 +38,6 @@
 
 - (IBAction)connectStart:(id)sender {
     AppDelegate *app=[[UIApplication sharedApplication]delegate];
-    [app pushTabBar];
+    [app pushToRealTimePlay];
 }
 @end
